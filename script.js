@@ -100,5 +100,4 @@
         if (e.key === 'Enter') sendBtn.click();
     });
 </script>
-</body>
-</html>
+
