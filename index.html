@@ -63,8 +63,22 @@
 
 <script>
 function startChat() {
-    document.getElementById("homePage").style.display = "none";
-    document.getElementById("chatContainer").style.display = "block";
+    const homePage = document.getElementById("homePage");
+    const chatContainer = document.getElementById("chatContainer");
+
+    // Home page hide
+    homePage.style.display = "none";
+
+    // Chat page show
+    chatContainer.style.display = "block";
+
+    // Fade-in animation
+    chatContainer.style.opacity = "0";
+
+    setTimeout(() => {
+        chatContainer.style.transition = "opacity 0.5s ease";
+        chatContainer.style.opacity = "1";
+    }, 100);
 }
 </script>
 
