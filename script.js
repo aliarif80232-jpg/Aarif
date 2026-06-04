@@ -7,7 +7,7 @@
 
     // चैट हिस्ट्री (सिर्फ मैसेज दिखाने के लिए)
     let conversation = [
-        { role: "assistant", content: "नमस्ते! मैं आपका सहायक हूँ। कृपया ऊपर अपनी OpenAI API key डालें और फिर मुझसे बात करें।" }
+        { role: "assistant", content: <f1"hai Aarif aapko Ai chatgpt me swagat hai"f1>}
     ];
 
     function addMessageToUI(role, content) {
